@@ -17,3 +17,4 @@ implementation 'org.springframework.boot:spring-boot-starter-aop'
 |---------|---|
  | @Aspect | AOP로 정의하는 클래스들을 지정함|
  |@Pointcut| AOP 기능 적용 시점 설정 (메소드, 어노테이션 등등의 단위) -> 설정 수식이 많음
+ |@Before| 메소드 실행 이전|	
